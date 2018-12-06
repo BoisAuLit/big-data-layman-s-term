@@ -1,0 +1,17 @@
+
+link:
+https://www.quora.com/In-laymans-terms-what-exactly-are-Apache-and-Hadoop-and-what-significance-do-they-have-to-big-data-and-data-science#__w2_w2vX1EwV21_expanded_content#__w2_w2vX1EwV21_expanded_content
+
+By Apache, you mean the Apache Software Foundation, a community of enthusiastic users and developers contributing towards open-source projects. Apache Hadoop is one such project and in simple terms is a software framework for processing large data sets. 
+
+Now, coming to your question on where this data comes from and why is this all so important suddenly? Well, some of the data has always been there - weather information, scientific results, human genomic data, federal data, credit-card information, shopping transactions, and so on. And with the social media revolution, a lot more is generated today by users such as you and me. All our photos, tweets, blog posts, comments need to be persisted and almost instantaneously processed. With millions of users, that translates to several petabytes of data. For storing and processing these data sets, companies had to build new data platforms. 
+
+Google possibly hit this problem earlier than others and built a new internal platform. It published several papers on it, and a team at Yahoo, lead by Doug Cutting began working on what is now Hadoop. 
+
+Hadoop was soon incorporated as a top level Apache project and several people contribute to it. New start-ups such as Cloudera, Hortonworks and MapR were formed and began their own distributions of Apache Hadoop. Many eco-system projects came-up to complement Hadoop. Apache Hive, Apache Drill, Apache Pig are a few examples. 
+
+Coming back to what Hadoop really is, and what problem it solves, let us take a scenario at Google. There are more than a million people who actively use and rely on Gmail, Youtube, Maps, and Search. To enable this, Google needs a lot of processing and storage capacity. Several thousand servers, each of them with capability to store TeraBytes of data. The servers individually cannot scale to power these million users, so a distributed computing system is necessary that can behave as one big computing environment. This system must be resilient to individual hardware failures and be highly available. With Hadoop, such a distributed data storage and processing system becomes possible. There is one master node which coordinates with the rest of them to cater to user requests. Jobs are distributed to where data resides and they collectively solve the problem. Even when one of the component server becomes unavailable, requests can continue to be serviced, as there are replicas of data within the cluster. An alternate server can pick-up where a failed one left off.
+
+With commercially available distributions, many companies began exploring the advantages of using Hadoop. There are several economical advantages to build data platforms with commodity hardware and Hadoop. A shopping company can now store data on customer shopping habits and provide customized offers. DNA sequencers previously taking several years can now decode genomes in a day. Weather forecasts may be made well in advance and can be more accurate. Fraudulent transactions can be detected and blocked in minutes. There is a lot that can be done.
+
+I hope this gives some clarity on the rise of Big Data and Hadoop.
