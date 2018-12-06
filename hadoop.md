@@ -1,6 +1,6 @@
 
 link:
-https://www.quora.com/In-laymans-terms-what-exactly-are-Apache-and-Hadoop-and-what-significance-do-they-have-to-big-data-and-data-science#__w2_w2vX1EwV21_expanded_content#__w2_w2vX1EwV21_expanded_content
+https://www.quora.com/In-laymans-terms-what-exactly-are-Apache-and-Hadoop-and-what-significance-do-they-have-to-big-data-and-data-science
 
 By Apache, you mean the Apache Software Foundation, a community of enthusiastic users and developers contributing towards open-source projects. Apache Hadoop is one such project and in simple terms is a software framework for processing large data sets. 
 
